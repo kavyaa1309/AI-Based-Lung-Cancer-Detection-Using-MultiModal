@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset and uploaded medical images
+backend/dataset/
+backend/data/
+backend/uploads/
+
+# Trained model files
+backend/models/*.pt
+backend/models/*.pth
+
+# Patient database
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example

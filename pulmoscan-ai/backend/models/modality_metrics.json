@@ -1,0 +1,12 @@
+{
+  "class_counts": {
+    "ct": 362,
+    "xray": 444,
+    "invalid": 18
+  },
+  "train_images": 576,
+  "validation_images": 124,
+  "test_images": 124,
+  "best_validation_accuracy": 0.9919354838709677,
+  "test_accuracy": 1.0
+}

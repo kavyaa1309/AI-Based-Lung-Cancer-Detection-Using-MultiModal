@@ -1,0 +1,35 @@
+{
+  "val": {
+    "n": 67,
+    "accuracy": 0.9104477611940298,
+    "sensitivity_cancer_recall": 0.8695652173913043,
+    "specificity_non_cancer_recall": 1.0,
+    "precision_cancer": 1.0,
+    "auc": 0.9813664596273293,
+    "confusion_matrix": {
+      "true_non_cancer_pred_non_cancer": 21,
+      "true_non_cancer_pred_cancer": 0,
+      "true_cancer_pred_non_cancer": 6,
+      "true_cancer_pred_cancer": 40
+    }
+  },
+  "test": {
+    "n": 67,
+    "accuracy": 0.835820895522388,
+    "sensitivity_cancer_recall": 0.8,
+    "specificity_non_cancer_recall": 0.9090909090909091,
+    "precision_cancer": 0.9473684210526315,
+    "auc": 0.9767676767676767,
+    "confusion_matrix": {
+      "true_non_cancer_pred_non_cancer": 20,
+      "true_non_cancer_pred_cancer": 2,
+      "true_cancer_pred_non_cancer": 9,
+      "true_cancer_pred_cancer": 36
+    }
+  },
+  "temperature": 2.2311463356018066,
+  "class_counts": {
+    "non_cancerous": 144,
+    "cancerous": 300
+  }
+}
